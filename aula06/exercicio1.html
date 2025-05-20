@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        h1 {
+            color: rgb(234, 244, 246);
+            background-color: rgb(103, 79, 129);
+            text-align: center;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid blueviolet;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <h1>Exemplo 2</h1>
+    <p>
+        Neste exemplo vamos continuar estudando tabelas,
+        mas vamos mesclar as células
+    </p>
+
+    <table>
+        <tr>
+            <th>Nome do aluno</th>
+            <th>Disciplina</th>
+            <th>Nota</th>
+            <th>Falta</th>
+        </tr>
+        <tr>
+            <td>Guilherme</td>
+            <td>Português</td>
+            <td>MB</td>
+            <td>5</td>
+        </tr>
+
+        <tr>
+            <td>Sophia</td>
+            <td>Matemática</td>
+            <td>R</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Felipe</td>
+            <td colspan="3">Aluno não matriculado</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Hlena da Silva Souza</td>
+            <td colspan="2">Não Avaliado</td>
+        </tr>
+        <tr>
+       <td>Ana Julia</td>
+       <td>Geografia</td>
+       <td>MB</td>
+       <td>5</td>
+     </tr>
+     <tr>
+      <td style="background-color: blue;">Lucas</td>
+      <td rowspan="2">Matemática</td>
+      <td>MB</td>
+      <td rowspan="2">2</td>
+     </tr>
+     <tr>
+     <td>Luis</td>
+
+     <td>B</td>
+
+
+        
+
+     </tr>
+
+    </table>
 </body>
+
 </html>
