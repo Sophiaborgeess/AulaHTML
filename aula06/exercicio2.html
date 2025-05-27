@@ -7,12 +7,15 @@
     <style>
         h1
         {
-          color: blanchedalmond;
-          background-color: aqua; 
-          text-align: center; 
+          color:rgb(255, 255, 255);
+          background-color: rgb(99, 64, 16);
+          text-align: center;
+          border: 2px solid rgb(0, 0, 0);
+    
         }
         table, th, td
-        {border: 1px;
+        {
+        border: 1px solid black;
          border-collapse: collapse;
          padding: 5px;
         }
@@ -21,6 +24,106 @@
 
 <body>
     <h1>Aula 8 exercício 2</h1>
+<p>Exercício de colspan</p>
+
+<table>
+<tr>
+<td>dias da semana</td>
+<td>turma</td>
+<td>aula 1</td>
+<td>aula 2</td>
+<td>aula 3</td>
+<td>aula 4</td>
+<td>aula 5</td>
+<td>aula 6</td>
+</tr>
+<tr>
+    <td>segunda</td>
+    <td>A/B</td>
+    <td colspan="2">IW</td>
+    <td>EACNT</td>
+    <td>AD/APW</td>
+    <td>física</td>
+    <td>AD/PA</td>
+</tr>
+    <tr>
+        <td>Terça</td>
+        <td>A/B</td>
+        <td>Português</td>
+        <td colspan="2">PE</td>
+        <td>Física</td>
+        <td colspan="2">Inglês</td>
+    </tr>
+    <tr>
+<td>Quarta</td>
+<td>A/B</td>
+<td colspan="2">Português</td>
+<td colspan="2">FI/PA</td>
+<td colspan="2">PA/FI</td>
+</tr>
+
+</table>
+<table>
+<p>Exercício de rowspan e colspan</p>
+   
+<tr>
+    <th>Dia da semana</th>
+    <th>Turma</th>
+    <th>aula 1</th>
+    <th>aula 2</th>
+    <th>aula 3</th>
+    <th>aula 4</th>
+    <th>aula 5</th>
+    <th>aula 6</th>
+</tr>
+<tr>
+    <td rowspan="2">Domingo</td>
+    <td>A</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>B</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td rowspan="2">Segunda</td>
+    <td>A</td>
+    <td colspan="2">Guilherme</td>
+    <td>Vagner</td>
+    <td>Rafael</td>
+    <td rowspan="2" >Vagner</td>
+    <td>Rafael</td>
+</tr>
+<tr>
+    <td>B</td>
+    <td colspan="2">Andricson</td>
+    <td>Janete</td>
+    <td>Ronaldo</td>
+    <td>Andricson</td>
+</tr>
+<tr>
+    <td rowspan="2">Terça</td>
+    <td>A</td>
+    <td rowspan="2">Isabela</td>
+    <td rowspan="2" colspan="2">Jaqueline</td>
+    <td rowspan="2">Vagner</td>
+    <td rowspan="2" colspan="2">Celene</td>
+    
+</tr>
+<tr>
+    <td>B</td>
+</tr>
+</table>
     
 </body>
 </html>
