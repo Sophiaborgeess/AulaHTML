@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    body
+    {
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+    }
+
+    .camada1
+    {
+        background-color: rgb(38, 129, 152);
+        color: aliceblue;
+        height: 100px;
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .camada2
+    {
+        background-color: rgb(128, 133, 133);
+        color: aliceblue;
+        height: calc(100vh - 200px);
+        
+        display: flex;
+    }
+
+    .camada2 > div
+    {
+        border: 1px solid white;
+        flex: 1;
+    }
+   
+    .camada3
+    {
+        background-color: rgb(27, 96, 86);
+        color: aliceblue;
+        height: 100px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end4;
+    }
+   </style>
+</head>
+<body>
+    <div class="camada1">
+<div>Esquerda</div>
+<div>Direita</div>
+    </div>
+
+    <div class="camada2">
+<div>coluna 1</div>
+<div>coluna 2</div>
+<div>coluna 3</div>
+    </div>
+
+    <div class="camada3">
+        <div>Esquerda</div>
+        <div>Direita</div>
+    </div>
+    
+
+
+</body>
+</html>
